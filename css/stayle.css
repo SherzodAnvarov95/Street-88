@@ -1,0 +1,236 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+.container{
+    max-width: 966px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.nav{
+    background-color: black;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header___ul{
+    list-style: none;
+}
+.header__block{
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__foother{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header__section__ul{
+    list-style: none;
+}
+.header__div__ul{
+    display: flex;
+    column-gap: 10px;
+}
+.header{
+    background-image: url(../img/food-burger-wallpaper-preview\ 1.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+  
+}
+.header__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.silka{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.fastfood{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.cool__ul{
+    display: flex;column-gap: 10px;
+}
+.cool__silka{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+.vector{
+    margin-top: 167px;
+}
+.vector__burger{
+    color: #69CF17;
+    font-size: 72px;
+   
+}
+.vector__slesh{
+    color: #69CF17;
+    font-size: 36px;
+}
+.vector_param{
+    font-size: 18px;
+    color: #FFF;
+    margin-top: 18px;
+}
+.java{
+    margin-top: 30px;
+}
+.java__ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.java__block{
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+.java__scrip{
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+}
+.foother__ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF;
+}
+.section{
+    margin-top: 15px;
+}
+.nav__section{
+    background: #292929;
+}
+.section__main{
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center; */
+}
+.burger{
+    background: #0C0C0C;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 25%;
+}
+.burger__img{
+    margin-top: 15px;
+    padding: 15px 16px;
+    width: 100%;
+}
+.burger__name{
+    font-size: 19px;
+    color:#FFF;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.burger__menu{
+    font-size: 19px;
+    color: #FFF;
+    /* width: 338.73px; */
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.burger__filyal{
+    text-align: center;
+}
+.burger__title{
+    font-size: 50px;
+    color: #69CF17;
+    text-align: center;
+}
+.maps{
+   width: 100%;
+}
+
+.nav__foother{
+    background: #1A3406;
+}
+.fastburger{
+    display: flex;
+    justify-content: space-between;
+}
+.fastburgerul{
+    list-style: none;
+}
+.fastburgername{
+    font-size: 26px;
+    color: #FFFFFF;
+   
+}
+.fastburgerphone{
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+.faststreet{
+    display: flex;
+    justify-content: space-between;
+}
+.faststreetul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.faststreetsilka{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+}
+.foother__food{
+    text-align: center;
+}
+.foother__name{
+    font-size: 16px;
+    color: #FFF;
+}
+.burger__fast{
+    background-image: url(../img/foto__burger.jpg);
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    background-size: cover;
+}
+.header__street88{
+    text-align: center;
+    font-size: 55px;
+    color: #69CF17;
+}
+.foother__txt{
+    font-size: 18px;
+    width: 1110px;
+    margin-top: 30px;
+}
